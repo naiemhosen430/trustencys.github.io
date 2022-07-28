@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/***************************************
+start top code
+***************************************/
+.top{
+    padding-top: 20px;
+    background-color: rgb(255, 254, 254);
+}
+.top>span{
+    padding: 10px 0;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font: bolder;
+    width: 30%;
+    display: inline-block;
+}
+.top>ul{
+    display: inline-block;
+    width: 55%;
+}
+.top>ul>li{
+    padding: 10px 0;
+    display: inline-block;
+    width: 13%;
+    transition: .5s linear;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+.top>ul>li:hover{
+    background-color: gray;
+    color: white;
+}
+.resgister_box{
+    width: 11%;
+    display: inline-block;
+}
+.resgister_box>button{
+    background-color: gray;
+    color: white;
+    width: 48%;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .5s linear;
+}
+.resgister_box>button:hover{
+    background-color: rgb(226, 223, 223) ;
+    color: black;
+}
+
+.log{
+    background-color: rgb(226, 223, 223) !important;
+    color: black !important;
+}
+.log:hover{
+    background-color: rgb(65, 12, 12)!important;
+    color: rgb(240, 236, 236) !important;
+}
+
+/***************************************
+start notice code
+***************************************/
+.notice{
+    padding: 20px 10px;
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+    background-color: wheat;
+}
+
+/***************************************
+start section one code
+***************************************/
+.one{
+    background: url(image/background.jpg);
+    padding: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.one>h1{
+    text-align: center;
+    font-size: 45px;
+    color: rgb(238, 228, 228);
+}
+.one>h1>b{
+    color: white;
+}
+.srch_box{
+    padding-top: 15px;
+    text-align: center;
+}
+.srch_box>input{
+    padding: 5px 15px;
+    font-size: 25px;
+    width: 40%;
+    border: 1px solid gray;
+}
+.srch_box>a{
+    text-decoration: none;
+    width: 30%;
+    padding: 5px 15px;
+    font-size: 25px;
+    background-color: brown;
+    color: white;
+    transition: .5s linear;
+}
+.srch_box>a:hover{
+    background-color: rgb(196, 98, 98);
+}
+
+.button_box{
+    margin-top: 50px;
+    text-align: center;
+    display: ;
+}
+.button_box>button{
+    padding: 5px;
+    font-size: 20px;
+    width: 25%;
+    background-color: brown;
+    color: white;
+    transition: .5s linear;
+}
+.button_box>button:hover{
+    background-color: rgb(197, 138, 138) ;
+}
+.get{
+    transition: .5s linear;
+    background-color: rgb(197, 138, 138) !important;
+}
+.get:hover{
+    background-color: brown !important;
+}
